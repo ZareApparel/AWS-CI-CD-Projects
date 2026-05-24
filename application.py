@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 # Importing Flask to make our app, also request to check request and to receive values from html page, and also importing render_template
 import numpy as np
-import pandas as pd
+import pandas as pd  
 
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, predict_pipeline
